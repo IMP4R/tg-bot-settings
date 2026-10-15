@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tg-bot-settings"
+version = "0.1.0"
+description = "Typed framework-independent Telegram settings"
+requires-python = ">=3.11"
+readme = "README.md"
+dependencies = ["tg-bot-templates>=0.1,<0.2"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
